@@ -9,7 +9,7 @@ public class PrimeTest {
     @Test /*Danh dau, day la method test*/
     public void should_return_true_for_prime_number_check() {
         //Gia thiet - Arrange
-        int number = 30;
+        int number = 3;
         boolean expected = true;
 
         //Thuc hien - Act
