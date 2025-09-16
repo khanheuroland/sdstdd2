@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Stub/ITodoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Stub/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/ToDoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/TodoRepositoryStub.java" afterDir="false" />
+    <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="add stub">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Mock/ITodoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Mock/ToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Mock/ToDoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/DataDrivenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/DataDrivenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/Stub/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Stub/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/ToDoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/TodoRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/TodoRepositoryStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +74,12 @@
     "JUnit.ToDoTest.executor": "Run",
     "JUnit.ToDoTest.should_return_a_list_of_tasks_after_remove_a_task.executor": "Run",
     "JUnit.ToDoTest.should_return_all_of_tasks.executor": "Run",
+    "JUnit.ToDoTest.should_return_exception_after_remove_not_existed_task.executor": "Run",
     "JUnit.ToDoTest.should_return_exception_for_empty_task_name.executor": "Run",
     "JUnit.ToDoTest.should_return_exception_for_invalid_task_name.executor": "Run",
     "JUnit.ToDoTest.should_return_false_after_add_duplicated_task.executor": "Run",
     "JUnit.ToDoTest.should_return_false_after_add_dupplicated_task.executor": "Run",
+    "JUnit.ToDoTest.should_return_remaining_list_after_remove_a_task.executor": "Run",
     "JUnit.ToDoTest.should_return_true_after_add_task_successfully.executor": "Run",
     "JUnit.ToDoTest.should_throw_exception_if_remove_unavailable_task.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -99,54 +101,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson2.Mock" />
       <recent name="Lesson2" />
       <recent name="Lesson1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson2.Mock" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToDoTest.should_throw_exception_if_remove_unavailable_task">
-    <configuration name="DataDrivenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ToDoTest.should_return_remaining_list_after_remove_a_task">
+    <configuration name="ToDoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
+          <option name="PATTERN" value="Lesson2.Mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
+      <option name="PACKAGE_NAME" value="Lesson2.Mock" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Mock.ToDoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataDrivenTest.Dont_write_many_assertion_in_a_test_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson2" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
-      <option name="METHOD_NAME" value="Dont_write_many_assertion_in_a_test_method" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataDrivenTest.smart_assert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson2" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
-      <option name="METHOD_NAME" value="smart_assert" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,6 +136,38 @@
       <option name="PACKAGE_NAME" value="Lesson2.Stub" />
       <option name="MAIN_CLASS_NAME" value="Lesson2.Stub.ToDoTest" />
       <option name="METHOD_NAME" value="should_return_a_list_of_tasks_after_remove_a_task" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest.should_return_exception_after_remove_not_existed_task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.Mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2.Mock" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Mock.ToDoTest" />
+      <option name="METHOD_NAME" value="should_return_exception_after_remove_not_existed_task" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest.should_return_remaining_list_after_remove_a_task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.Mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2.Mock" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Mock.ToDoTest" />
+      <option name="METHOD_NAME" value="should_return_remaining_list_after_remove_a_task" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ToDoTest.should_return_remaining_list_after_remove_a_task" />
+        <item itemvalue="JUnit.ToDoTest" />
+        <item itemvalue="JUnit.ToDoTest.should_return_exception_after_remove_not_existed_task" />
         <item itemvalue="JUnit.ToDoTest.should_throw_exception_if_remove_unavailable_task" />
         <item itemvalue="JUnit.ToDoTest.should_return_a_list_of_tasks_after_remove_a_task" />
-        <item itemvalue="JUnit.DataDrivenTest.smart_assert" />
-        <item itemvalue="JUnit.DataDrivenTest.Dont_write_many_assertion_in_a_test_method" />
-        <item itemvalue="JUnit.DataDrivenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,11 +226,35 @@
       <workItem from="1757906490364" duration="3930000" />
       <workItem from="1757911454408" duration="1072000" />
       <workItem from="1757920016213" duration="5514000" />
-      <workItem from="1757985448525" duration="14137000" />
+      <workItem from="1757985448525" duration="15560000" />
     </task>
+    <task id="LOCAL-00001" summary="add stub">
+      <option name="closed" value="true" />
+      <created>1758007983246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758007983246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add stub" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stub" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson2/Stub/ToDo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -25,10 +25,9 @@ public class ToDoTest {
     @Test
     public void should_throw_exception_if_remove_unavailable_task()
     {
-
         ITodoRepository repoStub = new TodoRepositoryStub();
-        repoStub.getListOfTasks().clear();
-
+        List<String> lstTasks = repoStub.getListOfTasks();
+        lstTasks.clear();
         ToDo todo = new ToDo(repoStub);
 
         String taskToRemove = "Go to school";
