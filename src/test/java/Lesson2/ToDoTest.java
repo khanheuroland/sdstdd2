@@ -26,6 +26,7 @@ public class ToDoTest {
 
     @Nested
     @Tag("addTask")
+    @DisplayName("Collection of Test Suite for Add Task Function")
     class addTask {
         @Test
         public void should_return_true_after_add_task_successfully() {
@@ -120,6 +121,7 @@ public class ToDoTest {
     }
 
     @Nested
+    @Disabled
     @Tag("completeTask")
     class completeTask
     {

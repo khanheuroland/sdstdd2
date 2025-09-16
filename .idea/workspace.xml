@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1/PasswordValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/AssertionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/PasswordValidateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/ToDoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/DataDrivenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson1/PrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson1/PrimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/ToDoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +40,10 @@
     "JUnit.AnnotationTest.executor": "Run",
     "JUnit.AssertionTest.Assert_Junit.executor": "Run",
     "JUnit.AssertionTest.Asssert_Hamrest.executor": "Run",
+    "JUnit.DataDrivenTest.Add.executor": "Run",
+    "JUnit.DataDrivenTest.Add2.executor": "Run",
+    "JUnit.DataDrivenTest.executor": "Run",
+    "JUnit.DataDrivenTest.sayHello.executor": "Run",
     "JUnit.PasswordValidateTest.executor": "Run",
     "JUnit.PasswordValidateTest.should_return_false_for_password_has_below_6_character.executor": "Run",
     "JUnit.PasswordValidateTest.should_return_false_for_password_missing_lower_case.executor": "Run",
@@ -94,55 +93,8 @@
       <recent name="Lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToDoTest">
-    <configuration name="ToDoTest$completeTask.should_remove_task_from_task_list_after_make_task_completed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.ToDoTest" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest$completeTask" />
-      <option name="METHOD_NAME" value="should_remove_task_from_task_list_after_make_task_completed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDoTest$completeTask.should_throw_exception_after_make_unavailable_task_to_complete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.ToDoTest" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest$completeTask" />
-      <option name="METHOD_NAME" value="should_throw_exception_after_make_unavailable_task_to_complete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDoTest$removeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.ToDoTest" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest$removeTask" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DataDrivenTest.validEmail">
+    <configuration name="DataDrivenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
@@ -151,13 +103,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lesson2" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoTest.should_return_all_of_tasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataDrivenTest.Add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +118,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lesson2" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest" />
-      <option name="METHOD_NAME" value="should_return_all_of_tasks" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
+      <option name="METHOD_NAME" value="Add(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataDrivenTest.Add2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
+      <option name="METHOD_NAME" value="Add2(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataDrivenTest.sayHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
+      <option name="METHOD_NAME" value="sayHello(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataDrivenTest.validEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.DataDrivenTest" />
+      <option name="METHOD_NAME" value="validEmail(java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToDoTest" />
-        <item itemvalue="JUnit.ToDoTest.should_return_all_of_tasks" />
-        <item itemvalue="JUnit.ToDoTest$completeTask.should_throw_exception_after_make_unavailable_task_to_complete" />
-        <item itemvalue="JUnit.ToDoTest$completeTask.should_remove_task_from_task_list_after_make_task_completed" />
-        <item itemvalue="JUnit.ToDoTest$removeTask" />
+        <item itemvalue="JUnit.DataDrivenTest.validEmail" />
+        <item itemvalue="JUnit.DataDrivenTest.Add2" />
+        <item itemvalue="JUnit.DataDrivenTest.sayHello" />
+        <item itemvalue="JUnit.DataDrivenTest" />
+        <item itemvalue="JUnit.DataDrivenTest.Add" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +210,7 @@
       <workItem from="1757906490364" duration="3930000" />
       <workItem from="1757911454408" duration="1072000" />
       <workItem from="1757920016213" duration="5514000" />
-      <workItem from="1757985448525" duration="7407000" />
+      <workItem from="1757985448525" duration="9779000" />
     </task>
     <servers />
   </component>
