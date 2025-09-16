@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="add stub">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/EmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/IEmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/ISubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/JsonSubscriptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Subscription/SubcriptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/Mock/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Mock/ToDoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Test.executor": "Run",
     "JUnit.AnnotationJUnit.executor": "Run",
     "JUnit.AnnotationJUnit.first_test.executor": "Run",
     "JUnit.AnnotationTest.executor": "Run",
@@ -59,6 +67,11 @@
     "JUnit.PrimeTest.should_return_false_for_not_prime_number_check.executor": "Run",
     "JUnit.PrimeTest.should_return_false_for_number_less_than_2.executor": "Run",
     "JUnit.PrimeTest.should_return_true_for_prime_number_check.executor": "Run",
+    "JUnit.SubcriptionTest.executor": "Run",
+    "JUnit.SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email (1).executor": "Run",
+    "JUnit.SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email.executor": "Run",
+    "JUnit.SubcriptionTest.should_return_false_for_email_already_subscribed.executor": "Run",
+    "JUnit.SubcriptionTest.should_return_true_after_subscribe_with_valid_email.executor": "Run",
     "JUnit.ToDoTest$completeTask.should_remove_task_from_task_list_after_make_task_completed.executor": "Run",
     "JUnit.ToDoTest$completeTask.should_throw_exception_after_make_unavailable_task_to_complete.executor": "Run",
     "JUnit.ToDoTest$removeTask.executor": "Run",
@@ -95,6 +108,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson2.Subscription" />
       <recent name="Lesson2.Mock" />
       <recent name="Lesson2" />
       <recent name="Lesson1" />
@@ -103,81 +117,78 @@
       <recent name="Lesson2.Mock" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToDoTest.should_return_remaining_list_after_remove_a_task">
-    <configuration name="ToDoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.Test" />
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Mock.*" />
+          <option name="PATTERN" value="Lesson2.Subscription.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Mock" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Mock.ToDoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubcriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.Subscription.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoTest.should_return_a_list_of_tasks_after_remove_a_task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Stub.*" />
+          <option name="PATTERN" value="Lesson2.Subscription.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Stub" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Stub.ToDoTest" />
-      <option name="METHOD_NAME" value="should_return_a_list_of_tasks_after_remove_a_task" />
+      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
+      <option name="METHOD_NAME" value="should_return_exception_after_subscribe_with_invalid_email(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoTest.should_return_exception_after_remove_not_existed_task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubcriptionTest.should_return_false_for_email_already_subscribed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Mock.*" />
+          <option name="PATTERN" value="Lesson2.Subscription.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Mock" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Mock.ToDoTest" />
-      <option name="METHOD_NAME" value="should_return_exception_after_remove_not_existed_task" />
+      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
+      <option name="METHOD_NAME" value="should_return_false_for_email_already_subscribed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoTest.should_return_remaining_list_after_remove_a_task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubcriptionTest.should_return_true_after_subscribe_with_valid_email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Mock.*" />
+          <option name="PATTERN" value="Lesson2.Subscription.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Mock" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Mock.ToDoTest" />
-      <option name="METHOD_NAME" value="should_return_remaining_list_after_remove_a_task" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDoTest.should_throw_exception_if_remove_unavailable_task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.Stub.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Stub" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Stub.ToDoTest" />
-      <option name="METHOD_NAME" value="should_throw_exception_if_remove_unavailable_task" />
+      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
+      <option name="METHOD_NAME" value="should_return_true_after_subscribe_with_valid_email" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToDoTest.should_return_remaining_list_after_remove_a_task" />
-        <item itemvalue="JUnit.ToDoTest" />
-        <item itemvalue="JUnit.ToDoTest.should_return_exception_after_remove_not_existed_task" />
-        <item itemvalue="JUnit.ToDoTest.should_throw_exception_if_remove_unavailable_task" />
-        <item itemvalue="JUnit.ToDoTest.should_return_a_list_of_tasks_after_remove_a_task" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.SubcriptionTest" />
+        <item itemvalue="JUnit.SubcriptionTest.should_return_false_for_email_already_subscribed" />
+        <item itemvalue="JUnit.SubcriptionTest.should_return_true_after_subscribe_with_valid_email" />
+        <item itemvalue="JUnit.SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +231,7 @@
       <workItem from="1757906490364" duration="3930000" />
       <workItem from="1757911454408" duration="1072000" />
       <workItem from="1757920016213" duration="5514000" />
-      <workItem from="1757985448525" duration="16974000" />
+      <workItem from="1757985448525" duration="20250000" />
     </task>
     <task id="LOCAL-00001" summary="add stub">
       <option name="closed" value="true" />
