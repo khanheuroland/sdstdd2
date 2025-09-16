@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="add stub">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Mock/ITodoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Mock/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Mock/ToDoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/Stub/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Stub/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/ToDoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/TodoRepositoryStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/TodoRepositoryStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/Mock/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Mock/ToDoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +220,7 @@
       <workItem from="1757906490364" duration="3930000" />
       <workItem from="1757911454408" duration="1072000" />
       <workItem from="1757920016213" duration="5514000" />
-      <workItem from="1757985448525" duration="15560000" />
+      <workItem from="1757985448525" duration="16974000" />
     </task>
     <task id="LOCAL-00001" summary="add stub">
       <option name="closed" value="true" />

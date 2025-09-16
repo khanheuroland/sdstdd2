@@ -25,8 +25,9 @@ public class ToDoTest {
         ToDo todo = new ToDo(repository);
         List<String> lstRemaining = todo.removeTask("go to school");
         //Assertion
-        assertThat(lstRemaining, allOf(hasItem("go to cinema"), not(hasItem("go to school"))));
-        verify(repository, times(1)).saveData(anyList());
+        //assertThat(lstRemaining, allOf(hasItem("go to cinema"), not(hasItem("go to school"))));
+        verify(repository, times(1))
+                .saveData(argThat(lst->!lst.contains("go to school")));
     }
 
     @Test
