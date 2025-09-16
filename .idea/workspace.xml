@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1/PasswordValidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/ToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/AssertionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson1/PasswordValidateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/ToDoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson1/PrimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson1/PrimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +40,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AnnotationJUnit.executor": "Run",
+    "JUnit.AnnotationJUnit.first_test.executor": "Run",
+    "JUnit.AnnotationTest.executor": "Run",
+    "JUnit.AssertionTest.Assert_Junit.executor": "Run",
+    "JUnit.AssertionTest.Asssert_Hamrest.executor": "Run",
+    "JUnit.PasswordValidateTest.executor": "Run",
+    "JUnit.PasswordValidateTest.should_return_false_for_password_has_below_6_character.executor": "Run",
+    "JUnit.PasswordValidateTest.should_return_false_for_password_missing_lower_case.executor": "Run",
+    "JUnit.PasswordValidateTest.should_return_false_for_password_missing_number.executor": "Run",
+    "JUnit.PasswordValidateTest.should_return_false_for_password_missing_special_character.executor": "Run",
+    "JUnit.PasswordValidateTest.should_return_false_for_password_missing_upper_case.executor": "Run",
+    "JUnit.PasswordValidateTest.should_return_true_for_valid_password.executor": "Debug",
     "JUnit.PrimeTest.executor": "Run",
     "JUnit.PrimeTest.should_return_exception_for_null_input.executor": "Run",
     "JUnit.PrimeTest.should_return_false_for_negative_number.executor": "Run",
     "JUnit.PrimeTest.should_return_false_for_not_prime_number_check.executor": "Run",
     "JUnit.PrimeTest.should_return_false_for_number_less_than_2.executor": "Run",
     "JUnit.PrimeTest.should_return_true_for_prime_number_check.executor": "Run",
+    "JUnit.ToDoTest$completeTask.should_remove_task_from_task_list_after_make_task_completed.executor": "Run",
+    "JUnit.ToDoTest$completeTask.should_throw_exception_after_make_unavailable_task_to_complete.executor": "Run",
+    "JUnit.ToDoTest$removeTask.executor": "Run",
+    "JUnit.ToDoTest$removeTask.should_remove_existed_task_from_task_list.executor": "Run",
+    "JUnit.ToDoTest$removeTask.should_return_empty_list_after_remove_all_tasks.executor": "Run",
+    "JUnit.ToDoTest$removeTask.should_return_false_after_remove_task_unavailable.executor": "Run",
+    "JUnit.ToDoTest.executor": "Run",
+    "JUnit.ToDoTest.should_return_all_of_tasks.executor": "Run",
+    "JUnit.ToDoTest.should_return_exception_for_empty_task_name.executor": "Run",
+    "JUnit.ToDoTest.should_return_exception_for_invalid_task_name.executor": "Run",
+    "JUnit.ToDoTest.should_return_false_after_add_duplicated_task.executor": "Run",
+    "JUnit.ToDoTest.should_return_false_after_add_dupplicated_task.executor": "Run",
+    "JUnit.ToDoTest.should_return_true_after_add_task_successfully.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,96 +90,105 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson2" />
       <recent name="Lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeTest">
-    <configuration name="PrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ToDoTest">
+    <configuration name="ToDoTest$completeTask.should_remove_task_from_task_list_after_make_task_completed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
+          <option name="PATTERN" value="Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson1" />
-      <option name="MAIN_CLASS_NAME" value="Lesson1.PrimeTest" />
+      <option name="PACKAGE_NAME" value="Lesson2.ToDoTest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest$completeTask" />
+      <option name="METHOD_NAME" value="should_remove_task_from_task_list_after_make_task_completed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest$completeTask.should_throw_exception_after_make_unavailable_task_to_complete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2.ToDoTest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest$completeTask" />
+      <option name="METHOD_NAME" value="should_throw_exception_after_make_unavailable_task_to_complete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest$removeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2.ToDoTest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest$removeTask" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeTest.should_return_exception_for_null_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
+          <option name="PATTERN" value="Lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson1" />
-      <option name="MAIN_CLASS_NAME" value="Lesson1.PrimeTest" />
-      <option name="METHOD_NAME" value="should_return_exception_for_null_input" />
+      <option name="PACKAGE_NAME" value="Lesson2" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoTest.should_return_all_of_tasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson2" />
+      <option name="MAIN_CLASS_NAME" value="Lesson2.ToDoTest" />
+      <option name="METHOD_NAME" value="should_return_all_of_tasks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeTest.should_return_false_for_negative_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson1" />
-      <option name="MAIN_CLASS_NAME" value="Lesson1.PrimeTest" />
-      <option name="METHOD_NAME" value="should_return_false_for_negative_number" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeTest.should_return_false_for_not_prime_number_check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson1" />
-      <option name="MAIN_CLASS_NAME" value="Lesson1.PrimeTest" />
-      <option name="METHOD_NAME" value="should_return_false_for_not_prime_number_check" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeTest.should_return_false_for_number_less_than_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson1" />
-      <option name="MAIN_CLASS_NAME" value="Lesson1.PrimeTest" />
-      <option name="METHOD_NAME" value="should_return_false_for_number_less_than_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeTest" />
-        <item itemvalue="JUnit.PrimeTest.should_return_exception_for_null_input" />
-        <item itemvalue="JUnit.PrimeTest.should_return_false_for_negative_number" />
-        <item itemvalue="JUnit.PrimeTest.should_return_false_for_number_less_than_2" />
-        <item itemvalue="JUnit.PrimeTest.should_return_false_for_not_prime_number_check" />
+        <item itemvalue="JUnit.ToDoTest" />
+        <item itemvalue="JUnit.ToDoTest.should_return_all_of_tasks" />
+        <item itemvalue="JUnit.ToDoTest$completeTask.should_throw_exception_after_make_unavailable_task_to_complete" />
+        <item itemvalue="JUnit.ToDoTest$completeTask.should_remove_task_from_task_list_after_make_task_completed" />
+        <item itemvalue="JUnit.ToDoTest$removeTask" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +208,9 @@
       <option name="presentableId" value="Default" />
       <updated>1757906487864</updated>
       <workItem from="1757906490364" duration="3930000" />
-      <workItem from="1757911454408" duration="39000" />
+      <workItem from="1757911454408" duration="1072000" />
+      <workItem from="1757920016213" duration="5514000" />
+      <workItem from="1757985448525" duration="7407000" />
     </task>
     <servers />
   </component>

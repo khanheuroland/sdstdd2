@@ -1,11 +1,18 @@
 package Lesson1;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PrimeTest {
+    @BeforeAll
+    public static void setup_1_time()
+    {
+        System.out.println("Run 1 time from PrimeTest");
+    }
+
     @Test /*Danh dau, day la method test*/
     public void should_return_true_for_prime_number_check() {
         //Gia thiet - Arrange
