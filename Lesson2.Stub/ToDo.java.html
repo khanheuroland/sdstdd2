@@ -12,12 +12,12 @@ public class ToDo {
 
     public List&lt;String&gt; removeTask(String taskToRemove) {
 <span class="fc" id="L14">        List&lt;String&gt; tasks = repository.getListOfTasks();</span>
-<span class="fc bfc" id="L15" title="All 2 branches covered.">        if (tasks.contains(taskToRemove)) {</span>
+<span class="pc bpc" id="L15" title="1 of 2 branches missed.">        if (tasks.contains(taskToRemove)) {</span>
 <span class="fc" id="L16">            tasks.remove(taskToRemove);</span>
 <span class="fc" id="L17">            return tasks;</span>
         }
         else {
-<span class="fc" id="L20">            throw   new IllegalArgumentException(&quot;Task does not exist&quot;);</span>
+<span class="nc" id="L20">            throw   new IllegalArgumentException(&quot;Task does not exist&quot;);</span>
         }
     }
 }

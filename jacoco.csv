@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-ssdtdd,Lesson2.Stub,ToDo,0,25,0,2,0,8,0,3,0,2
+ssdtdd,Lesson2.Stub,ToDo,5,20,1,1,1,7,1,2,0,2
 ssdtdd,Lesson2.Subscription,JsonSubscriptionRepository.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
 ssdtdd,Lesson2.Subscription,Subscription,0,55,0,4,0,17,0,6,0,4
 ssdtdd,Lesson1,PasswordValidate,0,13,0,0,0,4,0,2,0,2
