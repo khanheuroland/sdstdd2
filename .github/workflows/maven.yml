@@ -28,4 +28,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test with Maven
-      run: mvn test
+      run: mvn clean verify
+    - name: Deploy Jacoco report to Github Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        publish_dir: ./target/site/jacoco
