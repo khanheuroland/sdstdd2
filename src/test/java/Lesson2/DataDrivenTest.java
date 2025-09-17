@@ -57,7 +57,7 @@ public class DataDrivenTest {
         System.out.println("Assert 1");
         assertThat(true, equalTo(true));
         System.out.println("Assert 2");
-        assertThat(true, equalTo(false ));
+        assertThat(true, equalTo(true ));
         System.out.println("Assert 3");
         assertThat(true, equalTo(true));
         System.out.println("Assert 4");

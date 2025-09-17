@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="add stub">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/EmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/IEmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/ISubscriptionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/JsonSubscriptionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/Subscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Subscription/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Subscription/SubcriptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/DataDrivenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/DataDrivenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +96,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -231,7 +226,8 @@
       <workItem from="1757906490364" duration="3930000" />
       <workItem from="1757911454408" duration="1072000" />
       <workItem from="1757920016213" duration="5514000" />
-      <workItem from="1757985448525" duration="20250000" />
+      <workItem from="1757985448525" duration="21436000" />
+      <workItem from="1758074089984" duration="1770000" />
     </task>
     <task id="LOCAL-00001" summary="add stub">
       <option name="closed" value="true" />
@@ -261,5 +257,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
