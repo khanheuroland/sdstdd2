@@ -9,7 +9,6 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class ToDoTest {
-    @Test
     public void should_return_a_list_of_tasks_after_remove_a_task()
     {
         //Create stub
@@ -22,7 +21,6 @@ public class ToDoTest {
         assertThat(tasks, allOf(not(hasItem(taskToRemove)), hasItem("Go to cinema")));
     }
 
-    @Test
     public void should_throw_exception_if_remove_unavailable_task()
     {
         ITodoRepository repoStub = new TodoRepositoryStub();
