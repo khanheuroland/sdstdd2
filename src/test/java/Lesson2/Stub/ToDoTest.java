@@ -22,7 +22,6 @@ public class ToDoTest {
         assertThat(tasks, allOf(not(hasItem(taskToRemove)), hasItem("Go to cinema")));
     }
 
-    @Test
     public void should_throw_exception_if_remove_unavailable_task()
     {
         ITodoRepository repoStub = new TodoRepositoryStub();
