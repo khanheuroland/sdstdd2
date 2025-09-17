@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecde51e-5c9b-4a55-b48c-c6bbf11fa13c" name="Changes" comment="add stub">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/BankInterest/BankInterestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/BankInterest/InterestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/BankInterest/PremiumInterestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/BankInterest/StandardInterestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/BankInterest/SupperVipInterestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/BankInterest/VipInterestStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/OrderRefactor/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/OrderRefactor/OrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/OrderRefactor/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/ShapeRefactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/ShapeRefactorStratergy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/ShapeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson3/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3/BankInterest/BankInterestCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3/ShapeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2/Stub/ToDoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +58,17 @@
     "JUnit.AnnotationTest.executor": "Run",
     "JUnit.AssertionTest.Assert_Junit.executor": "Run",
     "JUnit.AssertionTest.Asssert_Hamrest.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.Test_supper_Vip.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_premium_customer_below_6_month.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_premium_customer_has_month_from_12.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_premium_customer_has_month_from_6_to_12.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_standard_customer_below_6_month.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_standard_customer_has_month_from_12.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_standard_customer_has_month_from_6_to_12.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_below_6_month.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_has_month_from_12.executor": "Run",
+    "JUnit.BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_has_month_from_6_to_12.executor": "Run",
     "JUnit.DataDrivenTest.Add.executor": "Run",
     "JUnit.DataDrivenTest.Add2.executor": "Run",
     "JUnit.DataDrivenTest.Dont_write_many_assertion_in_a_test_method.executor": "Run",
@@ -60,6 +89,10 @@
     "JUnit.PrimeTest.should_return_false_for_not_prime_number_check.executor": "Run",
     "JUnit.PrimeTest.should_return_false_for_number_less_than_2.executor": "Run",
     "JUnit.PrimeTest.should_return_true_for_prime_number_check.executor": "Run",
+    "JUnit.ShapeTest.executor": "Run",
+    "JUnit.ShapeTest.should_return_rectangle_area.executor": "Run",
+    "JUnit.ShapeTest.should_return_square_area.executor": "Run",
+    "JUnit.ShapeTest.should_return_triangle_area.executor": "Run",
     "JUnit.SubcriptionTest.executor": "Run",
     "JUnit.SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email (1).executor": "Run",
     "JUnit.SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email.executor": "Run",
@@ -107,82 +140,89 @@
       <recent name="Lesson2" />
       <recent name="Lesson1" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Lesson3" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson3.OrderRefactor" />
       <recent name="Lesson2.Mock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.Test" />
+  <component name="RunManager" selected="JUnit.BankInterestCalculatorTest.Test_supper_Vip">
+    <configuration name="BankInterestCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Subscription.*" />
+          <option name="PATTERN" value="Lesson3.BankInterest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubcriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssdtdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.Subscription.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
+      <option name="PACKAGE_NAME" value="Lesson3.BankInterest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.BankInterest.BankInterestCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankInterestCalculatorTest.Test_supper_Vip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Subscription.*" />
+          <option name="PATTERN" value="Lesson3.BankInterest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
-      <option name="METHOD_NAME" value="should_return_exception_after_subscribe_with_invalid_email(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="Lesson3.BankInterest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.BankInterest.BankInterestCalculatorTest" />
+      <option name="METHOD_NAME" value="Test_supper_Vip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubcriptionTest.should_return_false_for_email_already_subscribed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_below_6_month" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Subscription.*" />
+          <option name="PATTERN" value="Lesson3.BankInterest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
-      <option name="METHOD_NAME" value="should_return_false_for_email_already_subscribed" />
+      <option name="PACKAGE_NAME" value="Lesson3.BankInterest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.BankInterest.BankInterestCalculatorTest" />
+      <option name="METHOD_NAME" value="should_calculate_interest_for_vip_customer_below_6_month(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubcriptionTest.should_return_true_after_subscribe_with_valid_email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_has_month_from_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssdtdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.Subscription.*" />
+          <option name="PATTERN" value="Lesson3.BankInterest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson2.Subscription" />
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Subscription.SubcriptionTest" />
-      <option name="METHOD_NAME" value="should_return_true_after_subscribe_with_valid_email" />
+      <option name="PACKAGE_NAME" value="Lesson3.BankInterest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.BankInterest.BankInterestCalculatorTest" />
+      <option name="METHOD_NAME" value="should_calculate_interest_for_vip_customer_has_month_from_12(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_has_month_from_6_to_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssdtdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson3.BankInterest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson3.BankInterest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.BankInterest.BankInterestCalculatorTest" />
+      <option name="METHOD_NAME" value="should_calculate_interest_for_vip_customer_has_month_from_6_to_12(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.SubcriptionTest" />
-        <item itemvalue="JUnit.SubcriptionTest.should_return_false_for_email_already_subscribed" />
-        <item itemvalue="JUnit.SubcriptionTest.should_return_true_after_subscribe_with_valid_email" />
-        <item itemvalue="JUnit.SubcriptionTest.should_return_exception_after_subscribe_with_invalid_email (1)" />
+        <item itemvalue="JUnit.BankInterestCalculatorTest.Test_supper_Vip" />
+        <item itemvalue="JUnit.BankInterestCalculatorTest" />
+        <item itemvalue="JUnit.BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_has_month_from_6_to_12" />
+        <item itemvalue="JUnit.BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_has_month_from_12" />
+        <item itemvalue="JUnit.BankInterestCalculatorTest.should_calculate_interest_for_vip_customer_below_6_month" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +266,7 @@
       <workItem from="1757911454408" duration="1072000" />
       <workItem from="1757920016213" duration="5514000" />
       <workItem from="1757985448525" duration="21436000" />
-      <workItem from="1758074089984" duration="4133000" />
+      <workItem from="1758074089984" duration="13378000" />
     </task>
     <task id="LOCAL-00001" summary="add stub">
       <option name="closed" value="true" />
@@ -253,6 +293,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lesson2/Stub/ToDo.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Lesson3/ShapeTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson3/ShapeRefactorStratergy.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
